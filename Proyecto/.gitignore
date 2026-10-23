@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.env.production
+.state.env
+.tmp/
+*.tgz
+__pycache__/
