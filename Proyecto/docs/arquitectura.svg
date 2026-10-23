@@ -1,0 +1,212 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1060" width="1600" height="1060" font-family="Segoe UI, Helvetica, Arial, DejaVu Sans, sans-serif">
+<defs><marker id="a232f3e" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#232f3e"/></marker><marker id="a3B48CC" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3B48CC"/></marker><marker id="aE7157B" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E7157B"/></marker><marker id="a01A88D" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#01A88D"/></marker><marker id="a5a6a7a" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5a6a7a"/></marker><filter id="sh" x="-5%" y="-10%" width="110%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.15"/></filter></defs>
+<rect x="0" y="0" width="1600" height="1060" rx="0" fill="#ffffff" stroke="none" stroke-width="1"/>
+<text x="30" y="32" font-size="24" font-weight="800" fill="#232f3e" text-anchor="start">Semi-Social · Grupo 6 — Arquitectura en AWS</text>
+<text x="30" y="54" font-size="13" font-weight="400" fill="#5a6a7a" text-anchor="start">Seminario de Sistemas 1 · USAC · 2S2026 · región us-east-1 (N. Virginia)</text>
+<rect x="30" y="66" width="14" height="14" rx="3" fill="#ED7100" stroke="none" stroke-width="1"/>
+<text x="50" y="78" font-size="12" font-weight="500" fill="#232f3e" text-anchor="start">Cómputo</text>
+<rect x="125" y="66" width="14" height="14" rx="3" fill="#5c8a1a" stroke="none" stroke-width="1"/>
+<text x="145" y="78" font-size="12" font-weight="500" fill="#232f3e" text-anchor="start">Almacenamiento</text>
+<rect x="269" y="66" width="14" height="14" rx="3" fill="#3B48CC" stroke="none" stroke-width="1"/>
+<text x="289" y="78" font-size="12" font-weight="500" fill="#232f3e" text-anchor="start">Base de datos</text>
+<rect x="406" y="66" width="14" height="14" rx="3" fill="#8C4FFF" stroke="none" stroke-width="1"/>
+<text x="426" y="78" font-size="12" font-weight="500" fill="#232f3e" text-anchor="start">Red y entrega</text>
+<rect x="543" y="66" width="14" height="14" rx="3" fill="#01A88D" stroke="none" stroke-width="1"/>
+<text x="563" y="78" font-size="12" font-weight="500" fill="#232f3e" text-anchor="start">IA / ML</text>
+<rect x="638" y="66" width="14" height="14" rx="3" fill="#DD344C" stroke="none" stroke-width="1"/>
+<text x="658" y="78" font-size="12" font-weight="500" fill="#232f3e" text-anchor="start">Seguridad</text>
+<rect x="747" y="66" width="14" height="14" rx="3" fill="#E7157B" stroke="none" stroke-width="1"/>
+<text x="767" y="78" font-size="12" font-weight="500" fill="#232f3e" text-anchor="start">Integración y gestión</text>
+<rect x="20" y="96" width="235" height="944" rx="12" fill="#f4f6f8" stroke="#aab7b8" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="36" y="120" font-size="14" font-weight="700" fill="#5a6a7a" text-anchor="start">Internet</text>
+<rect x="275" y="92" width="1305" height="948" rx="14" fill="none" stroke="#8d99a5" stroke-width="2" stroke-dasharray="2 0"/>
+<text x="295" y="120" font-size="15" font-weight="700" fill="#232f3e" text-anchor="start">AWS Cloud</text>
+<g filter="url(#sh)"><rect x="40" y="430" width="195" height="84" rx="10" fill="#fff" stroke="#232f3e" stroke-width="2"/></g>
+<rect x="50" y="452.0" width="40" height="40" rx="9" fill="#232f3e" stroke="none" stroke-width="1"/>
+<text x="70" y="477.0" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">WEB</text>
+<text x="100" y="469.0" font-size="13.5" font-weight="700" fill="#232f3e" text-anchor="start">Usuario</text>
+<text x="100" y="486.0" font-size="11" font-weight="400" fill="#5a6a7a" text-anchor="start">Navegador · React</text>
+<g filter="url(#sh)"><rect x="300" y="140" width="215" height="72" rx="10" fill="#fff" stroke="#5c8a1a" stroke-width="2"/></g>
+<rect x="310" y="156.0" width="40" height="40" rx="9" fill="#5c8a1a" stroke="none" stroke-width="1"/>
+<text x="330" y="181.0" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">S3</text>
+<text x="360" y="173.0" font-size="13.5" font-weight="700" fill="#232f3e" text-anchor="start">S3 · Sitio estático</text>
+<text x="360" y="190.0" font-size="11" font-weight="400" fill="#5a6a7a" text-anchor="start">proyecto-web-g6-2s2026</text>
+<g filter="url(#sh)"><rect x="300" y="360" width="215" height="72" rx="10" fill="#fff" stroke="#8C4FFF" stroke-width="2"/></g>
+<rect x="310" y="376.0" width="40" height="40" rx="9" fill="#8C4FFF" stroke="none" stroke-width="1"/>
+<text x="330" y="401.0" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">CF</text>
+<text x="360" y="393.0" font-size="13.5" font-weight="700" fill="#232f3e" text-anchor="start">CloudFront</text>
+<text x="360" y="410.0" font-size="11" font-weight="400" fill="#5a6a7a" text-anchor="start">HTTPS · una sola URL</text>
+<rect x="560" y="108" width="650" height="682" rx="12" fill="#faf7ff" stroke="#8C4FFF" stroke-width="2"/>
+<text x="576" y="130" font-size="13" font-weight="700" fill="#8C4FFF" text-anchor="start">VPC 10.0.0.0/16</text>
+<g filter="url(#sh)"><rect x="640" y="142" width="490" height="64" rx="10" fill="#fff" stroke="#8C4FFF" stroke-width="2"/></g>
+<rect x="650" y="154.0" width="40" height="40" rx="9" fill="#8C4FFF" stroke="none" stroke-width="1"/>
+<text x="670" y="179.0" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">ALB</text>
+<text x="700" y="171.0" font-size="13.5" font-weight="700" fill="#232f3e" text-anchor="start">Application Load Balancer</text>
+<text x="700" y="188.0" font-size="11" font-weight="400" fill="#5a6a7a" text-anchor="start">HTTP :80 · health check /health · reparto entre instancias</text>
+<rect x="585" y="236" width="300" height="540" rx="10" fill="#ffffff" stroke="#7d8998" stroke-width="1.3" stroke-dasharray="5 4"/>
+<text x="599" y="256" font-size="12" font-weight="700" fill="#5a6a7a" text-anchor="start">Zona de disponibilidad 1</text>
+<rect x="905" y="236" width="300" height="540" rx="10" fill="#ffffff" stroke="#7d8998" stroke-width="1.3" stroke-dasharray="5 4"/>
+<text x="919" y="256" font-size="12" font-weight="700" fill="#5a6a7a" text-anchor="start">Zona de disponibilidad 2</text>
+<rect x="600" y="268" width="270" height="182" rx="8" fill="#f3f9ee" stroke="#5c8a1a" stroke-width="1.3"/>
+<rect x="600" y="480" width="270" height="280" rx="8" fill="#eef2ff" stroke="#3B48CC" stroke-width="1.3"/>
+<rect x="920" y="268" width="270" height="182" rx="8" fill="#f3f9ee" stroke="#5c8a1a" stroke-width="1.3"/>
+<rect x="920" y="480" width="270" height="280" rx="8" fill="#eef2ff" stroke="#3B48CC" stroke-width="1.3"/>
+<text x="612" y="286" font-size="11.5" font-weight="700" fill="#5c8a1a" text-anchor="start">Subred pública 10.0.1.0/24</text>
+<text x="932" y="286" font-size="11.5" font-weight="700" fill="#5c8a1a" text-anchor="start">Subred pública 10.0.2.0/24</text>
+<text x="612" y="498" font-size="11.5" font-weight="700" fill="#3B48CC" text-anchor="start">Subred privada 10.0.11.0/24</text>
+<text x="932" y="498" font-size="11.5" font-weight="700" fill="#3B48CC" text-anchor="start">Subred privada 10.0.12.0/24</text>
+<g filter="url(#sh)"><rect x="615" y="310" width="240" height="78" rx="10" fill="#fff" stroke="#ED7100" stroke-width="2"/></g>
+<rect x="625" y="329.0" width="40" height="40" rx="9" fill="#ED7100" stroke="none" stroke-width="1"/>
+<text x="645" y="354.0" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">EC2</text>
+<text x="675" y="346.0" font-size="13.5" font-weight="700" fill="#232f3e" text-anchor="start">EC2 · Node.js</text>
+<text x="675" y="363.0" font-size="11" font-weight="400" fill="#5a6a7a" text-anchor="start">Express · Auto Scaling (mín. 1)</text>
+<g filter="url(#sh)"><rect x="935" y="310" width="240" height="78" rx="10" fill="#fff" stroke="#ED7100" stroke-width="2"/></g>
+<rect x="945" y="329.0" width="40" height="40" rx="9" fill="#ED7100" stroke="none" stroke-width="1"/>
+<text x="965" y="354.0" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">EC2</text>
+<text x="995" y="346.0" font-size="13.5" font-weight="700" fill="#232f3e" text-anchor="start">EC2 · Python</text>
+<text x="995" y="363.0" font-size="11" font-weight="400" fill="#5a6a7a" text-anchor="start">FastAPI · Auto Scaling (mín. 1)</text>
+<text x="615" y="412" font-size="10.5" font-weight="400" fill="#5a6a7a" text-anchor="start">SG: 3000 solo desde el ALB</text>
+<text x="615" y="429" font-size="10.5" font-weight="400" fill="#5a6a7a" text-anchor="start">JWT · rol IAM · sin SSH</text>
+<text x="935" y="412" font-size="10.5" font-weight="400" fill="#5a6a7a" text-anchor="start">SG: 3000 solo desde el ALB</text>
+<text x="935" y="429" font-size="10.5" font-weight="400" fill="#5a6a7a" text-anchor="start">JWT · rol IAM · sin SSH</text>
+<g filter="url(#sh)"><rect x="615" y="525" width="240" height="78" rx="10" fill="#fff" stroke="#3B48CC" stroke-width="2"/></g>
+<rect x="625" y="544.0" width="40" height="40" rx="9" fill="#3B48CC" stroke="none" stroke-width="1"/>
+<text x="645" y="569.0" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">RDS</text>
+<text x="675" y="561.0" font-size="13.5" font-weight="700" fill="#232f3e" text-anchor="start">PostgreSQL · primaria</text>
+<text x="675" y="578.0" font-size="11" font-weight="400" fill="#5a6a7a" text-anchor="start">Escrituras · Multi-AZ</text>
+<text x="615" y="632" font-size="10.5" font-weight="400" fill="#5a6a7a" text-anchor="start">SG: 5432 solo desde las EC2</text>
+<g filter="url(#sh)"><rect x="935" y="520" width="240" height="70" rx="10" fill="#fff" stroke="#3B48CC" stroke-width="2"/></g>
+<rect x="945" y="535.0" width="40" height="40" rx="9" fill="#3B48CC" stroke="none" stroke-width="1"/>
+<text x="965" y="560.0" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">RDS</text>
+<text x="995" y="552.0" font-size="13.5" font-weight="700" fill="#232f3e" text-anchor="start">Réplica de lectura</text>
+<text x="995" y="569.0" font-size="11" font-weight="400" fill="#5a6a7a" text-anchor="start">Consultas del feed y listados</text>
+<g filter="url(#sh)"><rect x="935" y="610" width="240" height="70" rx="10" fill="#fff" stroke="#3B48CC" stroke-width="2"/></g>
+<rect x="945" y="625.0" width="40" height="40" rx="9" fill="#3B48CC" stroke="none" stroke-width="1"/>
+<text x="965" y="650.0" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">RDS</text>
+<text x="995" y="642.0" font-size="13.5" font-weight="700" fill="#232f3e" text-anchor="start">Standby Multi-AZ</text>
+<text x="995" y="659.0" font-size="11" font-weight="400" fill="#5a6a7a" text-anchor="start">Failover automático</text>
+<text x="935" y="706" font-size="10.5" font-weight="400" fill="#5a6a7a" text-anchor="start">SG: 5432 solo desde las EC2</text>
+<g filter="url(#sh)"><rect x="1270" y="110" width="290" height="64" rx="10" fill="#fff" stroke="#DD344C" stroke-width="2"/></g>
+<rect x="1280" y="122.0" width="40" height="40" rx="9" fill="#DD344C" stroke="none" stroke-width="1"/>
+<text x="1300" y="147.0" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">COG</text>
+<text x="1330" y="139.0" font-size="13.5" font-weight="700" fill="#232f3e" text-anchor="start">Cognito</text>
+<text x="1330" y="156.0" font-size="11" font-weight="400" fill="#5a6a7a" text-anchor="start">User pool · verificación por correo</text>
+<g filter="url(#sh)"><rect x="1270" y="192" width="290" height="64" rx="10" fill="#fff" stroke="#01A88D" stroke-width="2"/></g>
+<rect x="1280" y="204.0" width="40" height="40" rx="9" fill="#01A88D" stroke="none" stroke-width="1"/>
+<text x="1300" y="229.0" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">REK</text>
+<text x="1330" y="221.0" font-size="13.5" font-weight="700" fill="#232f3e" text-anchor="start">Rekognition</text>
+<text x="1330" y="238.0" font-size="11" font-weight="400" fill="#5a6a7a" text-anchor="start">CompareFaces · login facial</text>
+<g filter="url(#sh)"><rect x="1270" y="274" width="290" height="64" rx="10" fill="#fff" stroke="#01A88D" stroke-width="2"/></g>
+<rect x="1280" y="286.0" width="40" height="40" rx="9" fill="#01A88D" stroke="none" stroke-width="1"/>
+<text x="1300" y="311.0" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">TRA</text>
+<text x="1330" y="303.0" font-size="13.5" font-weight="700" fill="#232f3e" text-anchor="start">Translate</text>
+<text x="1330" y="320.0" font-size="11" font-weight="400" fill="#5a6a7a" text-anchor="start">Español · inglés · francés · portugués</text>
+<g filter="url(#sh)"><rect x="1270" y="356" width="290" height="64" rx="10" fill="#fff" stroke="#01A88D" stroke-width="2"/></g>
+<rect x="1280" y="368.0" width="40" height="40" rx="9" fill="#01A88D" stroke="none" stroke-width="1"/>
+<text x="1300" y="393.0" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">POL</text>
+<text x="1330" y="385.0" font-size="13.5" font-weight="700" fill="#232f3e" text-anchor="start">Polly</text>
+<text x="1330" y="402.0" font-size="11" font-weight="400" fill="#5a6a7a" text-anchor="start">URL prefirmada → &lt;audio&gt;</text>
+<g filter="url(#sh)"><rect x="1270" y="438" width="290" height="64" rx="10" fill="#fff" stroke="#01A88D" stroke-width="2"/></g>
+<rect x="1280" y="450.0" width="40" height="40" rx="9" fill="#01A88D" stroke="none" stroke-width="1"/>
+<text x="1300" y="475.0" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">LEX</text>
+<text x="1330" y="467.0" font-size="13.5" font-weight="700" fill="#232f3e" text-anchor="start">Lex V2</text>
+<text x="1330" y="484.0" font-size="11" font-weight="400" fill="#5a6a7a" text-anchor="start">Bot de la facultad (es_419)</text>
+<g filter="url(#sh)"><rect x="1270" y="520" width="290" height="64" rx="10" fill="#fff" stroke="#ED7100" stroke-width="2"/></g>
+<rect x="1280" y="532.0" width="40" height="40" rx="9" fill="#ED7100" stroke="none" stroke-width="1"/>
+<text x="1300" y="557.0" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">λ</text>
+<text x="1330" y="549.0" font-size="13.5" font-weight="700" fill="#232f3e" text-anchor="start">Lambda · fulfillment</text>
+<text x="1330" y="566.0" font-size="11" font-weight="400" fill="#5a6a7a" text-anchor="start">Respuestas dinámicas del bot</text>
+<g filter="url(#sh)"><rect x="1270" y="614" width="290" height="64" rx="10" fill="#fff" stroke="#E7157B" stroke-width="2"/></g>
+<rect x="1280" y="626.0" width="40" height="40" rx="9" fill="#E7157B" stroke="none" stroke-width="1"/>
+<text x="1300" y="651.0" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">SSM</text>
+<text x="1330" y="643.0" font-size="13.5" font-weight="700" fill="#232f3e" text-anchor="start">SSM Parameter Store</text>
+<text x="1330" y="660.0" font-size="11" font-weight="400" fill="#5a6a7a" text-anchor="start">Clave JWT y contraseña de la BD</text>
+<g filter="url(#sh)"><rect x="1270" y="696" width="290" height="70" rx="10" fill="#fff" stroke="#DD344C" stroke-width="2"/></g>
+<rect x="1280" y="711.0" width="40" height="40" rx="9" fill="#DD344C" stroke="none" stroke-width="1"/>
+<text x="1300" y="736.0" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">IAM</text>
+<text x="1330" y="728.0" font-size="13.5" font-weight="700" fill="#232f3e" text-anchor="start">IAM</text>
+<text x="1330" y="745.0" font-size="11" font-weight="400" fill="#5a6a7a" text-anchor="start">Roles ec2 · lambda · lex · 3 usuarios</text>
+<rect x="295" y="815" width="915" height="205" rx="12" fill="#fff8fb" stroke="#E7157B" stroke-width="1.8" stroke-dasharray="7 5"/>
+<text x="312" y="840" font-size="13" font-weight="700" fill="#E7157B" text-anchor="start">Carga de imágenes (serverless)</text>
+<g filter="url(#sh)"><rect x="315" y="882" width="190" height="76" rx="10" fill="#fff" stroke="#E7157B" stroke-width="2"/></g>
+<rect x="325" y="900.0" width="40" height="40" rx="9" fill="#E7157B" stroke="none" stroke-width="1"/>
+<text x="345" y="925.0" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">API</text>
+<text x="375" y="917.0" font-size="13.5" font-weight="700" fill="#232f3e" text-anchor="start">API Gateway</text>
+<text x="375" y="934.0" font-size="11" font-weight="400" fill="#5a6a7a" text-anchor="start">POST /upload</text>
+<g filter="url(#sh)"><rect x="580" y="882" width="200" height="76" rx="10" fill="#fff" stroke="#ED7100" stroke-width="2"/></g>
+<rect x="590" y="900.0" width="40" height="40" rx="9" fill="#ED7100" stroke="none" stroke-width="1"/>
+<text x="610" y="925.0" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">λ</text>
+<text x="640" y="917.0" font-size="13.5" font-weight="700" fill="#232f3e" text-anchor="start">Lambda · upload</text>
+<text x="640" y="934.0" font-size="11" font-weight="400" fill="#5a6a7a" text-anchor="start">Valida y guarda</text>
+<g filter="url(#sh)"><rect x="865" y="848" width="330" height="66" rx="10" fill="#fff" stroke="#5c8a1a" stroke-width="2"/></g>
+<rect x="875" y="861.0" width="40" height="40" rx="9" fill="#5c8a1a" stroke="none" stroke-width="1"/>
+<text x="895" y="886.0" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">S3</text>
+<text x="925" y="878.0" font-size="13.5" font-weight="700" fill="#232f3e" text-anchor="start">S3 · semi1proyecto-g6-2s2026</text>
+<text x="925" y="895.0" font-size="11" font-weight="400" fill="#5a6a7a" text-anchor="start">Fotos_Perfil/ y Fotos_Publicadas/</text>
+<g filter="url(#sh)"><rect x="865" y="930" width="330" height="66" rx="10" fill="#fff" stroke="#01A88D" stroke-width="2"/></g>
+<rect x="875" y="943.0" width="40" height="40" rx="9" fill="#01A88D" stroke="none" stroke-width="1"/>
+<text x="895" y="968.0" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">REK</text>
+<text x="925" y="960.0" font-size="13.5" font-weight="700" fill="#232f3e" text-anchor="start">Rekognition</text>
+<text x="925" y="977.0" font-size="11" font-weight="400" fill="#5a6a7a" text-anchor="start">DetectLabels · etiquetas para filtrar</text>
+<path d="M 235,472 L 255,472 L 255,396 L 298,396" fill="none" stroke="#232f3e" stroke-width="2" marker-end="url(#a232f3e)" stroke-linejoin="round"/>
+<circle cx="255" cy="436" r="12" fill="#232f3e" stroke="#fff" stroke-width="2"/>
+<text x="255" y="440.5" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+<path d="M 407,360 L 407,214" fill="none" stroke="#232f3e" stroke-width="2" marker-end="url(#a232f3e)" stroke-linejoin="round"/>
+<rect x="412.28" y="278" width="67.44" height="19" rx="9" fill="#fff" stroke="none" stroke-width="1"/>
+<rect x="412.28" y="278" width="67.44" height="19" rx="9" fill="#fff" fill-opacity="0.92"/>
+<text x="446" y="292" font-size="11" font-weight="600" fill="#5a6a7a" text-anchor="middle">/ (sitio)</text>
+<circle cx="407" cy="330" r="12" fill="#232f3e" stroke="#fff" stroke-width="2"/>
+<text x="407" y="334.5" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+<path d="M 515,396 L 538,396 L 538,174 L 638,174" fill="none" stroke="#232f3e" stroke-width="2" marker-end="url(#a232f3e)" stroke-linejoin="round"/>
+<rect x="513.52" y="250" width="48.96" height="19" rx="9" fill="#fff" stroke="none" stroke-width="1"/>
+<rect x="513.52" y="250" width="48.96" height="19" rx="9" fill="#fff" fill-opacity="0.92"/>
+<text x="538" y="264" font-size="11" font-weight="600" fill="#5a6a7a" text-anchor="middle">/api/*</text>
+<circle cx="538" cy="336" r="12" fill="#232f3e" stroke="#fff" stroke-width="2"/>
+<text x="538" y="340.5" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+<path d="M 790,206 L 790,308" fill="none" stroke="#232f3e" stroke-width="2" marker-end="url(#a232f3e)" stroke-linejoin="round"/>
+<path d="M 1000,206 L 1000,308" fill="none" stroke="#232f3e" stroke-width="2" marker-end="url(#a232f3e)" stroke-linejoin="round"/>
+<circle cx="790" cy="224" r="12" fill="#232f3e" stroke="#fff" stroke-width="2"/>
+<text x="790" y="228.5" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">4</text>
+<text x="900" y="226" font-size="10.5" font-weight="600" fill="#5a6a7a" text-anchor="middle">reparto equitativo</text>
+<path d="M 855,349 L 933,349" fill="none" stroke="#5a6a7a" stroke-width="1.6" stroke-dasharray="6 5" marker-end="url(#a5a6a7a)" marker-start="url(#a5a6a7a)" stroke-linejoin="round"/>
+<rect x="845.44" y="326" width="97.12" height="19" rx="9" fill="#fff" stroke="none" stroke-width="1"/>
+<rect x="845.44" y="326" width="97.12" height="19" rx="9" fill="#fff" fill-opacity="0.92"/>
+<text x="894" y="340" font-size="9.5" font-weight="600" fill="#5a6a7a" text-anchor="middle">mismos endpoints</text>
+<path d="M 828,390 L 828,523" fill="none" stroke="#3B48CC" stroke-width="2" marker-end="url(#a3B48CC)" stroke-linejoin="round"/>
+<rect x="792.6" y="450" width="70.80000000000001" height="19" rx="9" fill="#fff" stroke="none" stroke-width="1"/>
+<rect x="792.6" y="450" width="70.80000000000001" height="19" rx="9" fill="#fff" fill-opacity="0.92"/>
+<text x="828" y="464" font-size="10.5" font-weight="600" fill="#3B48CC" text-anchor="middle">escrituras</text>
+<path d="M 1148,390 L 1148,518" fill="none" stroke="#3B48CC" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#a3B48CC)" stroke-linejoin="round"/>
+<rect x="1118.48" y="450" width="59.040000000000006" height="19" rx="9" fill="#fff" stroke="none" stroke-width="1"/>
+<rect x="1118.48" y="450" width="59.040000000000006" height="19" rx="9" fill="#fff" fill-opacity="0.92"/>
+<text x="1148" y="464" font-size="10.5" font-weight="600" fill="#3B48CC" text-anchor="middle">lecturas</text>
+<circle cx="828" cy="436" r="12" fill="#232f3e" stroke="#fff" stroke-width="2"/>
+<text x="828" y="440.5" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">5</text>
+<path d="M 855,553 L 933,553" fill="none" stroke="#3B48CC" stroke-width="1.6" stroke-dasharray="6 5" marker-end="url(#a3B48CC)" stroke-linejoin="round"/>
+<rect x="858.74" y="531" width="70.52000000000001" height="19" rx="9" fill="#fff" stroke="none" stroke-width="1"/>
+<rect x="858.74" y="531" width="70.52000000000001" height="19" rx="9" fill="#fff" fill-opacity="0.92"/>
+<text x="894" y="545" font-size="9.5" font-weight="600" fill="#3B48CC" text-anchor="middle">replicación</text>
+<path d="M 855,590 L 895,590 L 895,645 L 933,645" fill="none" stroke="#3B48CC" stroke-width="1.6" stroke-dasharray="6 5" marker-end="url(#a3B48CC)" stroke-linejoin="round"/>
+<rect x="867.72" y="600" width="54.56" height="19" rx="9" fill="#fff" stroke="none" stroke-width="1"/>
+<rect x="867.72" y="600" width="54.56" height="19" rx="9" fill="#fff" fill-opacity="0.92"/>
+<text x="895" y="614" font-size="9.5" font-weight="600" fill="#3B48CC" text-anchor="middle">Multi-AZ</text>
+<path d="M 1175,349 L 1232,349" fill="none" stroke="#5a6a7a" stroke-width="2" marker-end="url(#a5a6a7a)" stroke-linejoin="round"/>
+<path d="M1232,142 L1232,646" stroke="#5a6a7a" stroke-width="2" fill="none"/>
+<path d="M 1232,142 L 1268,142" fill="none" stroke="#5a6a7a" stroke-width="2" marker-end="url(#a5a6a7a)" stroke-linejoin="round"/>
+<path d="M 1232,224 L 1268,224" fill="none" stroke="#5a6a7a" stroke-width="2" marker-end="url(#a5a6a7a)" stroke-linejoin="round"/>
+<path d="M 1232,306 L 1268,306" fill="none" stroke="#5a6a7a" stroke-width="2" marker-end="url(#a5a6a7a)" stroke-linejoin="round"/>
+<path d="M 1232,388 L 1268,388" fill="none" stroke="#5a6a7a" stroke-width="2" marker-end="url(#a5a6a7a)" stroke-linejoin="round"/>
+<path d="M 1232,470 L 1268,470" fill="none" stroke="#5a6a7a" stroke-width="2" marker-end="url(#a5a6a7a)" stroke-linejoin="round"/>
+<path d="M 1232,646 L 1268,646" fill="none" stroke="#5a6a7a" stroke-width="2" marker-end="url(#a5a6a7a)" stroke-linejoin="round"/>
+<circle cx="1232" cy="262" r="12" fill="#232f3e" stroke="#fff" stroke-width="2"/>
+<text x="1232" y="266.5" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">6</text>
+<path d="M 1415,502 L 1415,518" fill="none" stroke="#5a6a7a" stroke-width="1.8" marker-end="url(#a5a6a7a)" stroke-linejoin="round"/>
+<path d="M 135,514 L 135,920 L 313,920" fill="none" stroke="#E7157B" stroke-width="2.4" marker-end="url(#aE7157B)" stroke-linejoin="round"/>
+<circle cx="135" cy="600" r="12" fill="#232f3e" stroke="#fff" stroke-width="2"/>
+<text x="135" y="604.5" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">7</text>
+<text x="147" y="700" font-size="11" font-weight="600" fill="#E7157B" text-anchor="start">subida de imágenes</text>
+<path d="M 505,920 L 578,920" fill="none" stroke="#E7157B" stroke-width="2.2" marker-end="url(#aE7157B)" stroke-linejoin="round"/>
+<path d="M 780,905 L 822,905 L 822,881 L 863,881" fill="none" stroke="#E7157B" stroke-width="2.2" marker-end="url(#aE7157B)" stroke-linejoin="round"/>
+<path d="M 780,935 L 822,935 L 822,963 L 863,963" fill="none" stroke="#E7157B" stroke-width="2.2" marker-end="url(#aE7157B)" stroke-linejoin="round"/>
+<text x="30" y="1052" font-size="11" font-weight="400" fill="#5a6a7a" text-anchor="start" font-style="italic">Las imágenes públicas se leen directo desde S3; el audio de Polly llega al navegador por URL prefirmada (sin guardarse en S3).</text>
+</svg>
