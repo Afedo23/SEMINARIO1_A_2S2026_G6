@@ -8,9 +8,8 @@ Red social desplegada completamente en AWS. Permite registrarse y entrar con con
 
 | Carné | Nombre completo | Rol en el proyecto |
 |-------|-----------------|--------------------|
-| _(completar)_ | _(completar)_ | _(p. ej. infraestructura y despliegue)_ |
-| _(completar)_ | _(completar)_ | _(p. ej. backend)_ |
-| _(completar)_ | _(completar)_ | _(p. ej. frontend)_ |
+| _202003948_ | _Carlos Alfredo Barrientos López_ | _infraestructura y despliegue_ |
+
 
 Repositorio: `SEMINARIO1_A_2S2026_G6` · Colaboradores: `elder1095`, `CarlosJezeh777`
 
@@ -98,36 +97,57 @@ Cada servicio tiene su propio usuario o rol, de modo que ninguna identidad tiene
 
 ## 4. Capturas de pantalla
 
-> Guardar las imágenes en `Proyecto/capturas/` con estos nombres (o ajustar las rutas).
-
 ### Buckets de S3
-![Buckets](capturas/s3-buckets.png)
-![Carpetas de imágenes](capturas/s3-carpetas.png)
+![Buckets](/Proyecto/docs/Buckets.jpg)
+![Carpetas de imágenes](/Proyecto/docs/Imagenes.jpg)
 
 ### EC2
-![Instancias](capturas/ec2-instancias.png)
-![Auto Scaling Groups](capturas/ec2-asg.png)
+![Instancias](/Proyecto/docs/EC2.jpg)
+![Auto Scaling Groups](/Proyecto/docs/AUTO-SCALLING.jpg)
 
 ### Base de datos RDS
-![Primaria y réplica](capturas/rds.png)
+![Primaria y réplica](/Proyecto/docs/RDS.jpg)
 
 ### Aplicación web
-![Login](capturas/app-login.png)
-![Registro](capturas/app-registro.png)
-![Inicio con publicaciones, me gusta y filtros](capturas/app-inicio.png)
-![Traducción y audio](capturas/app-traduccion.png)
-![Chat](capturas/app-chat.png)
+##### El inicio de nuestra Página
+![Login](/Proyecto/docs/INICIO.jpg)
+##### La página de registro
+![Registro](/Proyecto/docs/REGISTRO.jpg)
+##### Ver la interfaz de la aplicación
+![Inicio con publicaciones, me gusta y filtros](/Proyecto/docs/APP.jpg)
+##### Ver las publicaciones y la traducción de audio
+![Traducción y audio](/Proyecto/docs/HISTORIAL.jpg)
+##### Apartado de Mensajeria
+![Chat](/Proyecto/docs/CHAT.jpg)
+##### Realizar una Publicación
+![Publicacion](/Proyecto/docs/PUBLICAR.jpg)
+##### Aceptar o Rechazar Solicitudes de amistad
+![Aceptar Solicitudes](/Proyecto/docs/ACEPTAR.jpg)
+##### Interacción con el Bot
+![Bot](/Proyecto/docs/BOT.jpg)
+##### Chats con amistades
+![Mensajes](/Proyecto/docs/CHATS.jpg)
+##### Realizar comentarios
+![Comentario](/Proyecto/docs/COMENTARIO.jpg)
+##### Utilizar etiquetas para busqueda
+![Comentario](/Proyecto/docs/FILTRO.jpg)
+##### Mi perfil
+![Comentario](/Proyecto/docs/PERFIL.jpg)
+##### Enviar Solicitudes
+![Comentario](/Proyecto/docs/SOLI.jpg)
+##### Comenzar a chatear
+![Comentario](/Proyecto/docs/MSM.jpg)
 
 ### Funciones Lambda
-![Lambdas](capturas/lambda.png)
-![API Gateway](capturas/apigateway.png)
+![Lambdas](/Proyecto/docs/LAMBDA.jpg)
+![API Gateway](/Proyecto/docs/API.jpg)
 
 ### Pool de Cognito
-![User pool](capturas/cognito.png)
+![User pool](/Proyecto/docs/COGNITO.jpg)
 
 ### Configuración de Amazon Lex
-![Bot](capturas/lex.png)
+![Bot](/Proyecto/docs/LEX.jpg)
 
 ### Balanceador de carga
-![Target group con ambos targets healthy](capturas/alb-targets.png)
-![Alternancia node/python en /api/info](capturas/alb-info.png)
+![Target group con ambos targets healthy](/Proyecto/docs/BALANCEADOR.jpg)
+

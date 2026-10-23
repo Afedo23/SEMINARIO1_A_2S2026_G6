@@ -5,6 +5,22 @@
 # Requiere haber corrido 01..05. Cada backend DEBE exponer GET /health -> 200 en el puerto 3000.
 cd "$(dirname "$0")"; source ./00-env.sh
 
+# --- Limpia restos de un intento anterior (por si un script se interrumpio o destroy dejo algo) ---
+for n in node python; do aws ec2 delete-launch-template --launch-template-name "$PROJ-$n" >/dev/null 2>&1 || true; done
+OLD_ALB=$(aws elbv2 describe-load-balancers --names "$PROJ-alb" --query 'LoadBalancers[0].[LoadBalancerArn,VpcId]' --output text 2>/dev/null || true)
+if [ -n "$OLD_ALB" ] && [ "$OLD_ALB" != "None" ]; then
+  read -r OA OV <<< "$OLD_ALB"
+  if [ "$OV" != "$VPC_ID" ]; then
+    echo "Borrando balanceador de una VPC anterior ($OV)..."
+    aws elbv2 delete-load-balancer --load-balancer-arn "$OA"; aws elbv2 wait load-balancers-deleted --load-balancer-arns "$OA"
+  fi
+fi
+OLD_TG=$(aws elbv2 describe-target-groups --names "$PROJ-tg" --query 'TargetGroups[0].TargetGroupArn' --output text 2>/dev/null || true)
+if [ -n "$OLD_TG" ] && [ "$OLD_TG" != "None" ]; then
+  echo "Borrando target group sobrante..."
+  for i in 1 2 3 4 5 6; do aws elbv2 delete-target-group --target-group-arn "$OLD_TG" 2>/dev/null && break; echo "sigue en uso, reintentando ($i/6)..."; sleep 10; done
+fi
+
 AMI=$(aws ssm get-parameter --name /aws/service/ami-amazon-linux-latest/al2023-ami-kernel-default-x86_64 \
   --query Parameter.Value --output text)
 
